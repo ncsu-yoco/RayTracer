@@ -1,0 +1,17 @@
+#Stores top(Y), right(X), bottom(Y) & left(X) co-ordinate of View Window
+
+#
+#		**** I M P O R T A N T ! ! ! ****
+#
+#	Please note that Look Vector => [0 0 1]
+#		and View Up Vector => [0 1 0]
+#
+#	As the ViewWindow will always be parallel to XY plane, we also have to give Z-co-ordinate of the plane
+
+
+Z -300
+
+Top 1
+Left -1
+Bottom -1
+Right 1

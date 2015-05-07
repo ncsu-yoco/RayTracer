@@ -1,0 +1,5 @@
+#xDimension specifies number of pixels horizontally
+#yDimension specifies number of pixels vertically
+
+xDimension 600
+yDimension 600

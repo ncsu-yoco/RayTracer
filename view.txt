@@ -1,0 +1,11 @@
+#	Stores Co-ordinates of eye in Eye [x y z] and Light [x y z]
+
+ViewUp 0 1 0
+Eye 00 0 10
+LookAt 0 0 0
+Light 10 10 10
+Light -10 -10 -10
+Light 100 100 100
+Light -100 -100 -100
+Light 50 50 50
+Light -50 -50 -50

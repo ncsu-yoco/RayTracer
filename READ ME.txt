@@ -1,0 +1,48 @@
+
+=> => => B E F O R E   Y O U   S T A R T   ! ! ! <= <= <=
+
+
+In RayTracer.cpp file
+1 . Specify the current working directory in variable "folderLoc" on "line 37"
+	Contents of working dierctory
+	i.   RayTracer.cpp
+	ii.  view.txt
+	iii. project.txt
+	iv.  window.txt
+	v.   inputs folder(containing .obj and .mtl files)
+	vi.  ReadMe.txt
+2 . Object to be used can be modified by setting value to variable "inputObj" on "line 39"
+	No need to mention .mtl file, the code will fetch it automatically from .obj file.
+
+
+--------------------------------------------------------------------------------------------
+
+The size of output window changes according the number of pixels specified in windows.txt
+
+--------------------------------------------------------------------------------------------
+
+				**** window.txt ****
+stores the number of pixels along X and Y dimensions
+			-----------------------------------
+				**** view.txt ****
+sets co-ordinates of eye and lights
+			-----------------------------------
+				**** project.txt ****
+stores the top,left,bottom right co-ordinate of View Window
+Also, according to our assupmtion, the ViewWindow is always parallel to XY plane; so, we need to specifyn Z-co-ordinate as well
+	! ! ! I M P O R T A N T   ! ! ! 
+	PLEASE NOTE THAT LOOK VECTOR => [0 0 1]
+		and VIEW UP VECTOR => [0 1 0]
+
+--------------------------------------------------------------------------------------------
+
+		* * *   E X I T   C o d e s   D e t a i l s   * * * 
+
+If the code returns with following exit codes, following conclusions can be made
+
+exited with code 0  : the program completed its execution successfully!!
+exited with code 11 : .obj file NOT found
+exited with code 12 : .mtl file NOT found
+exited with code 13 : window.txt file NOT found
+exited with code 14 : view.txt file NOT found
+exited with code 15 : project.txt file NOT found
